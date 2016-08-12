@@ -27,39 +27,44 @@ import org.modeshape.common.i18n.I18n;
  * The internationalized string constants for the <code>org.teiid.modeshape.sequencer.vdb*</code> packages.
  */
 public final class TeiidI18n {
-    public static I18n uuidNotValid;
-
-    public static I18n modelSequencerTaskName;
-    public static I18n vdbSequencerTaskName;
-    public static I18n errorSequencingModelContent;
-    public static I18n errorSequencingVdbContent;
-
-    public static I18n readingEcoreFile;
-    public static I18n errorReadingEcoreFile;
-    public static I18n errorWritingCndFile;
 
     public static I18n errorReadingDataserviceFile;
     public static I18n errorReadingDatasourceFile;
+    public static I18n fileSequencingError;
+    public static I18n missingDataServiceManifestFile;
+    public static I18n noDatasourceFound;
+    public static I18n unexpectedDeployPolicy;
+    public static I18n vdbSequencingError;
 
-    public static I18n errorReadingVdbFile;
-    public static I18n errorClosingVdbFile;
-
-    public static I18n invalidModelNodeType;
-    public static I18n invalidNumberOfPropertyAttributes;
-    public static I18n invalidVdbModelNodeType;
-    public static I18n missingDataRoleName;
-    public static I18n missingEntryPath;
-    public static I18n missingImportVdbNameOrVersion;
-    public static I18n missingPermissionResourceName;
-    public static I18n missingPropertyNameOrValue;
-    public static I18n missingTranslatorNameOrType;
-    public static I18n missingVdbName;
-
-    public static I18n illegalUnresolvedReference;
-    public static I18n namespaceUriNotFoundInRegistry;
-    public static I18n invalidVdbVersion;
-
-    public static I18n errorReadingMedMetaclassMappings;
+    public static I18n dataServiceSchemaError;
+    public static I18n dataserviceVdbAlreadySet;
+    public static I18n dataserviceVdbSequencingError;
+    public static I18n dataServiceXmlDeclarationNotParsed;
+    public static I18n dataServiceXmlEntitySkipped;
+    public static I18n dataSourceDriverSequencingError;
+    public static I18n dataSourceNotSequenced;
+    public static I18n dataSourceParserError;
+    public static I18n dataSourceReadProblem;
+    public static I18n dataSourceSchemaError;
+    public static I18n dataSourceSequencingError;
+    public static I18n dataSourceXmlDeclarationNotParsed;
+    public static I18n dataSourceXmlEntitySkipped;
+    public static I18n driverDataSourceNotFound;
+    public static I18n importVdbNotSequenced;
+    public static I18n pathAttributeNotFound;
+    public static I18n propertyNameIsBlank;
+    public static I18n serviceVdbNotFound;
+    public static I18n serviceVdbNotSequenced;
+    public static I18n unhandledDataServiceEndElement;
+    public static I18n unhandledDataServiceStartElement;
+    public static I18n unhandledDatasoureElement;
+    public static I18n unhandledDatasoureEndElement;
+    public static I18n unhandledDatasoureEventType;
+    public static I18n unhandledDatasoureStartElement;
+    public static I18n unhandledImportVdbElement;
+    public static I18n unhandledImportVdbEndElement;
+    public static I18n unhandledImportVdbEventType;
+    public static I18n unhandledVdbFile;
 
     private TeiidI18n() {
     }
